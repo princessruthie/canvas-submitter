@@ -4,6 +4,11 @@ from canvasapi.assignment import Assignment
 from canvasapi.requester import Requester
 import config #please don't ever show anyone your key. they'd be able to submit on your behalf
 
+import os
+dirname = os.path.dirname(__file__)
+filename = os.path.join(dirname, '../submission.zip')
+
+
 #This is provided with NO WARRANTY WHATSOEVER.
 #1) If your computer explodes, I take no responsibility.
 #2) If your dog bites you and your cat leaves you, it's not my problem.
@@ -38,9 +43,8 @@ assignment = Assignment(requester, {'course_id': COURSE_ID, 'id': ASSIGNMENT_ID}
 #   2) submit the assignment using the id of canvas id for the uploaded file in 1
 response = assignment.submit({
     'submission_type': 'online_upload',
-    }, FILE
+    }, filename
 )
 
 print(response)
 print("nothing eventful happened but you should always check the site")
-

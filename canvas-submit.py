@@ -1,5 +1,4 @@
 # Import the Canvas class
-from canvasapi import Canvas
 from canvasapi.assignment import Assignment
 from canvasapi.requester import Requester
 import config #please don't ever show anyone your key. they'd be able to submit on your behalf
@@ -58,4 +57,6 @@ response = assignment.submit({
 )
 
 print(response)
-print("nothing eventful happened but you should always check the site")
+print("\n\n\nNothing eventful happened but you should always check the site")
+canvas_page = "https://canvas.upenn.edu/courses/" + str(COURSE_ID) + "/assignments/" + str(ASSIGNMENT_ID)
+print("Please check your submission at: \n" + canvas_page)

@@ -8,12 +8,25 @@ import os
 dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname, '../submission.zip')
 
-
 #This is provided with NO WARRANTY WHATSOEVER.
 #1) If your computer explodes, I take no responsibility.
 #2) If your dog bites you and your cat leaves you, it's not my problem.
 #3) If you use this code and all your stuff uploads to my private server, it's deeply unintentional.
 #4) In all honesty, I'd be tickled if it helped anyone at all.
+
+### UNCOMMENT AS NECESSARY FOR EACH 593 ASSIGNMENT
+#HW01 Part01
+ASSIGNMENT_ID = 7454616
+#HW01 Part02
+# ASSIGNMENT_ID = 7454618
+#HW01 Part03
+#ASSIGNMENT_ID = 7454620
+#HW02
+#ASSIGNMENT_ID = 7454621
+#HW03
+# ASSIGNMENT_ID = 7454622
+#HW04
+# ASSIGNMENT_ID = 7454623
 
 ### You may wish to change this
 # your file name of choice
@@ -28,8 +41,6 @@ API_KEY = config.API_KEY
 ASSIGNMENT_ID = 7454616
 #596 course id
 COURSE_ID = 1488863
-
-
 
 # Initialize a new Requester
 requester = Requester(API_URL, API_KEY)

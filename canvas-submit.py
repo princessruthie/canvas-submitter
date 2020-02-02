@@ -15,9 +15,9 @@ filename = os.path.join(dirname, '../submission.zip')
 
 ### UNCOMMENT AS NECESSARY FOR EACH 593 ASSIGNMENT
 #HW01 Part01
-ASSIGNMENT_ID = 7454616
+# ASSIGNMENT_ID = 7454616
 #HW01 Part02
-# ASSIGNMENT_ID = 7454618
+ASSIGNMENT_ID = 7454618
 #HW01 Part03
 #ASSIGNMENT_ID = 7454620
 #HW02
@@ -36,8 +36,6 @@ FILE = "submission.zip"
 API_URL = "https://canvas.upenn.edu/api/v1/"
 # Canvas API key
 API_KEY = config.API_KEY
-#HW01 Part01
-ASSIGNMENT_ID = 7454616
 #596 course id
 COURSE_ID = 1488863
 

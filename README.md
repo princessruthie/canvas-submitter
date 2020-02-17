@@ -33,8 +33,8 @@ Alright.
 
 ### [\_] Get venv for python3
 Give your codio environment the ability to do venv for python3 (this means the our python code will run in a local folder that won't interfere with other things). Type in terminal:
-
-```sudo apt-get install python3-venv```
+```sudo apt-get update```
+```sudo apt-get install python3.4-venv```
 
 ### [_] Have a submission recipe.
 Your Makefile should include a submission recipe. If not, add one. It should zip the correct files into a submission.zip file. For part one, it might be:
